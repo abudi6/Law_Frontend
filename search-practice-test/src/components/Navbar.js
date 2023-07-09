@@ -47,9 +47,9 @@ const Navbar = () => {
         <div className="overlay-content">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
-          <Link to="/contact">Contact</Link>
+          <Link to="/about">Contact Us</Link>
         </div>
-      </div>
+      </div> 
       <span className="open-button" onClick={openNav}>&#9776;</span>
     </>
   );
